@@ -6,7 +6,7 @@ from strategy import backtest_strategy
 from chart_draw import draw_main_chart, draw_return_chart
 
 st.set_page_config(page_title="高级股票可视化分析系统", layout="wide")
-st.markdown("<h1 style='text-align:center;color:#42A5F5'>📈 Python高级股票可视化分析系统（含策略回测）</h1>",unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;color:#42A5F5'>📈 Python高级股票可视化分析系统</h1>",unsafe_allow_html=True)
 
 # 侧边栏
 with st.sidebar:
